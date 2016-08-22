@@ -1,4 +1,6 @@
-
+/*
+ Class Box implemented by Ronald Ilma. This question review fundamental concepts of OOP and class design in C++
+*/
 #include <cmath>
 #include <cstdio>
 #include <vector>
