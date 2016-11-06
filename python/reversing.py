@@ -1,5 +1,5 @@
 
-import re
+from re import search
 
 def ReverseAnInt(x):
 
@@ -11,7 +11,7 @@ def ReverseAnInt(x):
         raise TypeError("You must enter an integer!")
 
     # Reverse integer x
-    return -int(str(x)[1::][::-1]) if bool(re.search(r"\-\d", str(x))) \
+    return -int(str(x)[1::][::-1]) if bool(search(r"\-\d", str(x))) \
         else int(str(x)[::-1])
 
 #
