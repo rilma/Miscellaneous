@@ -10,3 +10,5 @@ Programming Interview Questions and Solutions
 4. [Binary Tree] (https://github.com/rilma/Questions-Solutions/tree/master/cpp/BinaryTree).
 
 5. [Reverse] (https://github.com/rilma/Questions-Solutions/blob/master/python/reversing.py) an integer even if it's negative.
+
+6. Predict the [maximum profit] (https://github.com/rilma/Questions-Solutions/blob/master/python/maxprofit.py) to buy and sell a stock.
