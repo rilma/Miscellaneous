@@ -13,4 +13,4 @@ Programming Interview Questions and Solutions
 
 6. Predict the [maximum profit] (https://github.com/rilma/Questions-Solutions/blob/master/python/maxprofit.py) to buy and sell a stock.
 
-7. Find the periods where the profit of buying and selling stocks [maximizes]. (https://github.com/rilma/Questions-Solutions/blob/master/python/maxprofit2.py)
+7. Find the periods where the profit of buying and selling stocks [maximizes] (https://github.com/rilma/Questions-Solutions/blob/master/python/maxprofit2.py).
