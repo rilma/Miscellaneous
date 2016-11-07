@@ -32,12 +32,12 @@ int main() {
  cout << "\nPrinting the items in the hash:\n\n";
  hashObj.printTable();
 
- // print buckets in an item of a Hash Table
- cout << "\nPrinting buckets inside an item:\n\n";
+ // print items in a slot of a Hash Table
+ cout << "\nPrinting items inside a slot:\n\n";
  hashObj.printItemsIndex( 2 );
 
  
- // Search for country (item) in a Hash Table
+ // Search for country (slot) in a Hash Table
  while ( name != "exit")  {
 
   cout << "Search for a country (Enter 'exit' to quit!): ";
@@ -50,7 +50,7 @@ int main() {
  
 
  /*
- // Remove a person (item) in a Hash Table
+ // Remove a person (slot) in a Hash Table
  while ( name != "exit")  {
 
   cout << "Remove a country (Enter 'exit' to quit!):";

@@ -32,7 +32,7 @@ int HashTable::HashFunction( string key ) {
 
  index = hash % tableSize;
 
- return index;	// the output of the HashFunction refers to a 'bucket' (not an index!!!)
+ return index;	// the output of the HashFunction refers to a 'slot' (not index!!!)
 
 }
 
@@ -133,11 +133,11 @@ void HashTable::printItemsIndex( int index ) {
 
 void HashTable::findDance( string name ) {
 
- int bucket = HashFunction( name );
+ int slot = HashFunction( name );
  bool foundName = false;
  string dance;
 
- HashItem* Ptr = hashTable[ bucket ];
+ HashItem* Ptr = hashTable[ slot ];
 
  while ( Ptr != NULL ) {
 
@@ -168,13 +168,13 @@ void HashTable::removeItem( string name ) {
  HashItem* Ptr1;
  HashItem* Ptr2;
 
- // case 0 ( bucket is empty )
+ // case 0 ( slot is empty )
  if ( hashTable[ index ]->name == "empty" ) {
   cout << "Case 0\n";
   cout << name << " was not found in the Hash Table\n";
  }
 
- // case 1 ( only one item in the bucket and item has a matching name ) 
+ // case 1 ( only one item in the slot and item has a matching name ) 
  else if ( hashTable[ index ]->name == name && hashTable[ index ]->next == NULL ) {
 
   hashTable[ index ]->name == "empty";
@@ -185,13 +185,13 @@ void HashTable::removeItem( string name ) {
 
  }
 
- // case 2 ( match is located in the first item in the bucket but 
- //          there are more items in the bucket )
+ // case 2 ( match is located in the first item in the slot but 
+ //          there are more items in the slot )
  else if ( hashTable[ index ]->name == name ) {
 
   delPtr = hashTable[ index ];
 
-  // the 2nd item in the bucket becomes first
+  // the 2nd item in the slot becomes first
   hashTable[ index ] = hashTable[ index ]->next;
 
   delete delPtr;
@@ -200,7 +200,7 @@ void HashTable::removeItem( string name ) {
 
  }
  
- // case 3 ( bucket contains items but first item is not a match )
+ // case 3 ( slot contains items but first item is not a match )
  else {
 
   Ptr1 = hashTable[ index ]->next;	// point to the 2nd item

@@ -20,7 +20,7 @@ class HashTable {
 
  private:
 
-  // No. of buckets in the hash
+  // No. of slots in the hash
   static const int tableSize = 5;
 
   // define things to store in the hash table
@@ -32,7 +32,7 @@ class HashTable {
 
   };
 
-  // define a hash table array with 'n' buckets ( size given by 'tableSize' )
+  // define a hash table array with 'n' slots ( size given by 'tableSize' )
   HashItem* hashTable[ tableSize ];
 
 };
