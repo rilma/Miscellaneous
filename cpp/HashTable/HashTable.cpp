@@ -8,8 +8,6 @@
 // constructor
 HashTable::HashTable() {
 
- //tableSize = 100;
-
  for ( int i = 0; i < tableSize; i++ ) {
 
   hashTable[ i ] = new HashItem;

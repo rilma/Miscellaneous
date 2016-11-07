@@ -20,6 +20,7 @@ class HashTable {
 
  private:
 
+  // No. of buckets in the hash
   static const int tableSize = 5;
 
   // define things to store in the hash table
