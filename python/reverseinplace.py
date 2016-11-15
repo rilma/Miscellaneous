@@ -3,8 +3,8 @@
 def ReverseInPlace(string):
 
     """
-        Strings are inmutable so we reverse a list of characters then 
-        convert them to a string 
+        Strings are inmutable in Python, so we reverse a list of characters then 
+        convert them back to a string 
     """
 
     List = list(string)
