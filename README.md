@@ -19,4 +19,6 @@ Programming Interview Questions and Solutions
 
 9. [Reverse] (https://github.com/rilma/Questions-Solutions/blob/master/python/reverseinplace.py) a string in-place
 
-10. Find the [k-missing] (https://github.com/rilma/Questions-Solutions/blob/master/python/findmissing.py) numbers
+10. Find either [one or two missing] (https://github.com/rilma/Questions-Solutions/blob/master/python/findmissing12.py) numbers in a list.
+
+11. Find the [k-missing] (https://github.com/rilma/Questions-Solutions/blob/master/python/findmissing.py) numbers
