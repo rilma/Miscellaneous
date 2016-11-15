@@ -18,3 +18,5 @@ Programming Interview Questions and Solutions
 8. Find the periods where the profit of buying and selling stocks [maximizes] (https://github.com/rilma/Questions-Solutions/blob/master/python/maxprofit2.py).
 
 9. [Reverse] (https://github.com/rilma/Questions-Solutions/blob/master/python/reverseinplace.py) a string in-place
+
+10. Find the [k-missing] (https://github.com/rilma/Questions-Solutions/blob/master/python/findmissing.py) numbers
