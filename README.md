@@ -7,7 +7,7 @@ Programming Interview Questions and Solutions
 
 3. [Singly Linked List] (https://github.com/rilma/Questions-Solutions/blob/master/python/singlylinkedlist.py).
 
-4. Binary Tree in [C++] (https://github.com/rilma/Questions-Solutions/tree/master/cpp/BinaryTree). Python 3 implementation [here] (https://github.com/rilma/Questions-Solutions/blob/master/python/binarytree.py)
+4. Binary Tree in [C++] (https://github.com/rilma/Questions-Solutions/tree/master/cpp/BinaryTree). Python 3 implementation [here] (https://github.com/rilma/Questions-Solutions/blob/master/python/binarytree.py).
 
 5. [Hash Table] (https://github.com/rilma/Questions-Solutions/tree/master/cpp/HashTable).
 
