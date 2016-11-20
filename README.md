@@ -9,16 +9,18 @@ Programming Interview Questions and Solutions
 
 4. Binary Tree in [C++] (https://github.com/rilma/Questions-Solutions/tree/master/cpp/BinaryTree). Python 3 implementation [here] (https://github.com/rilma/Questions-Solutions/blob/master/python/binarytree.py).
 
-5. [Hash Table] (https://github.com/rilma/Questions-Solutions/tree/master/cpp/HashTable).
+5. [Serialize] (https://github.com/rilma/Miscellaneous/blob/master/python/binarytreeSerialize.py) Binary Tree
 
-6. [Reverse] (https://github.com/rilma/Questions-Solutions/blob/master/python/reversing.py) an integer even if it's negative.
+6. [Hash Table] (https://github.com/rilma/Questions-Solutions/tree/master/cpp/HashTable).
 
-7. Predict the [maximum profit] (https://github.com/rilma/Questions-Solutions/blob/master/python/maxprofit.py) to buy and sell a stock.
+7. [Reverse] (https://github.com/rilma/Questions-Solutions/blob/master/python/reversing.py) an integer even if it's negative.
 
-8. Find the periods where the profit of buying and selling stocks [maximizes] (https://github.com/rilma/Questions-Solutions/blob/master/python/maxprofit2.py).
+8. Predict the [maximum profit] (https://github.com/rilma/Questions-Solutions/blob/master/python/maxprofit.py) to buy and sell a stock.
 
-9. [Reverse] (https://github.com/rilma/Questions-Solutions/blob/master/python/reverseinplace.py) a string in-place
+9. Find the periods where the profit of buying and selling stocks [maximizes] (https://github.com/rilma/Questions-Solutions/blob/master/python/maxprofit2.py).
 
-10. Find either [one or two missing] (https://github.com/rilma/Questions-Solutions/blob/master/python/findmissing12.py) numbers in a list.
+10. [Reverse] (https://github.com/rilma/Questions-Solutions/blob/master/python/reverseinplace.py) a string in-place
 
-11. Find the [k-missing] (https://github.com/rilma/Questions-Solutions/blob/master/python/findmissing.py) numbers
+11. Find either [one or two missing] (https://github.com/rilma/Questions-Solutions/blob/master/python/findmissing12.py) numbers in a list.
+
+12. Find the [k-missing] (https://github.com/rilma/Questions-Solutions/blob/master/python/findmissing.py) numbers
