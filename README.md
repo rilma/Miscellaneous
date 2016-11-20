@@ -1,5 +1,5 @@
-# Questions-Solutions
-Programming Interview Questions and Solutions
+# Miscellaneous
+Miscellaneous programs
 
 1. Find the next greater number with same number of digits. [Solution here] (https://github.com/rilma/Questions-Solutions/blob/master/cpp/greaternumber.cpp)
   
