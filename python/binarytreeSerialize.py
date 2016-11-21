@@ -26,8 +26,23 @@ class BinaryTree(object):
 
         result = []
         SerializeHelper(root)
-        
+
         return ' '.join(result)
+
+    def Deserialize(self, data):
+
+        def DeserializeHelper():
+            val = next(vals)
+            if val == 'None':
+                return None
+            node = BinaryTree(int(val))
+            node.left = DeserializeHelper()
+            node.right = DeserializeHelper()
+            return node
+
+        vals = iter(data.split())
+
+        return DeserializeHelper()
 
 
 if __name__ == '__main__':
@@ -42,4 +57,6 @@ if __name__ == '__main__':
     root.SetLeft(left)
     root.SetRight(right)
 
-    print(root.Serialize(root))
+    data = root.Serialize(root)    
+    tree = root.Deserialize(data)
+    
