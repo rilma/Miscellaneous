@@ -4,15 +4,12 @@ class BinaryTree(object):
     def __init__(self, value):
         self.value = value
         self.left, self.right = None, None
-        self.parent = None
 
     def SetLeft(self, node):
         self.left = node
-        self.left.parent = self
 
     def SetRight(self, node):
         self.right = node
-        self.right.parent = self
 
     def Serialize(self, root):
 
@@ -47,6 +44,18 @@ class BinaryTree(object):
 
 if __name__ == '__main__':
 
+    """
+    
+    Binary Tree example
+            1
+        2       3
+            4
+        
+    Serialize:
+        1 2 None 4 3 None None
+        
+    """
+    
     root = BinaryTree(1)
 
     left = BinaryTree(2)
