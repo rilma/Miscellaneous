@@ -26,3 +26,5 @@ Miscellaneous programs
 12. Find the [k-missing] (https://github.com/rilma/Questions-Solutions/blob/master/python/findmissing.py) numbers
 
 13. A query to find [the total monetary value] (MySQL/total.sql) of purchases ordered by categories. It requires the databases available at [w3schools.com] (http://www.w3schools.com/sql/)
+
+14. This query calculates [the median value] (MySQL/median.sql) of geographic latitudes stored in a table available at [HackerRank] (https://www.hackerrank.com/challenges/weather-observation-station-20).
