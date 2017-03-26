@@ -1,11 +1,11 @@
 # Miscellaneous
 Miscellaneous programs
 
-1. Find the next greater number with same number of digits. [Solution here] (https://github.com/rilma/Questions-Solutions/blob/master/cpp/greaternumber.cpp)
+1. Find the next greater number with same number of digits. [Solution here](https://github.com/rilma/Questions-Solutions/blob/master/cpp/greaternumber.cpp)
   
-2. [Simple class design] (https://github.com/rilma/Questions-Solutions/blob/master/cpp/boxit.cpp): Constructor, Destructor, and Operator Overloading. It is a [HackerRank Challenge] (https://www.hackerrank.com/challenges/box-it).
+2. [Simple class design](https://github.com/rilma/Questions-Solutions/blob/master/cpp/boxit.cpp): Constructor, Destructor, and Operator Overloading. It is a [HackerRank Challenge](https://www.hackerrank.com/challenges/box-it).
 
-3. [Singly Linked List] (https://github.com/rilma/Questions-Solutions/blob/master/python/singlylinkedlist.py).
+3. [Singly Linked List](https://github.com/rilma/Questions-Solutions/blob/master/python/singlylinkedlist.py).
 
 4. Binary Tree in [C++] (https://github.com/rilma/Questions-Solutions/tree/master/cpp/BinaryTree). Python 3 implementation [here] (https://github.com/rilma/Questions-Solutions/blob/master/python/binarytree.py).
 
